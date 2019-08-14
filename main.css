@@ -1,18 +1,183 @@
-#title {
-    text-align: left;
-    border-style: solid;
+body {
+    background-image: url(IMG/Matrix-wallpaper.jpg);
+    font-family: monospace;
+}
+
+
+.title {
+    color: white;
+    border: 5px rgb(0, 153, 255) solid;
     border-width: 4px;
     width: 50%;
     margin-left: 375px;
-    
-  }
-  .heading {
-  text-align: center;
-  }
-  .info {
-    text-align:center;
-  }
-  .education {
     text-align: center;
+    background-color:black;
+    font-family: monospace;
+    font-size: 12px;
+    text-shadow: 1px 2px rgb(0, 153, 255);
+  }
+
+  .linked-in {
+  text-shadow: 0px 0px rgb(0, 153, 255); 
+  color: red;
+  }
+
+  h4 {
+      font-size: 18px;
+  }
+
+  h3 {
+      font-size: 30px;
+  }
+
+  #summary {
+      color: white;
+      text-align: center;
+      background-color: black;
+      width: 60%;
+      margin-left: 300px;
+      border-left: 4px solid rgb(0, 153, 255);
+      font-family: monospace;
+      font-size: 12px;
+      text-shadow: 1px 2px rgb(0, 153, 255);
+      padding-bottom:px;
+  }
+  .summary-heading {
+    padding-top: 5px;
+  }
+
+  .summary-text {
+    margin-top: -30px;
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+
+  .summary {
+      font-size: 15px;
+  }
+
+  #education {
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 60%;
+    margin-left: 300px;
+    border-right: 4px solid rgb(0, 153, 255);
+    text-shadow: 1px 2px rgb(0,153,255);
+  }
+
+  .education-title {
+    margin-bottom: -15px;
+  }
+
+  .ccsf-logo{
+    background-color: white;
+    width: 60px;
+    margin-left: 60px;
+    margin-right: 3px;
+    float: left;
+  }
+
+  .major {
+    font-size: 18px;
+    margin-right: 100px;
+  }
+
+
+  .independence-logo {
+    background-color: white;
+    width: 60px;
+    margin-left: 60px;
+    margin-right: -100px;
+    float: left;
   }
   
+
+  #experience {
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 60%;
+    margin-left: 300px;
+    border-left: 4px solid rgb(0, 153, 255);
+    text-shadow: 1px 2px rgb(0, 153, 255);
+  } 
+  
+  
+  .experience-heading {
+    margin-bottom: -15px;
+  }
+
+
+  #dev-mission {
+    text-align: left;
+  }
+  .dev-mission-logo {
+    background-color: white;
+    width:60px;
+    float:left;
+    margin-left: 60px;
+    margin-right: 30px;
+  }
+  .panera-info {
+    text-align: center;
+    margin-left: -30px;
+  }
+
+  .panera-list {
+    padding-bottom: 20px;
+  }
+  .panera-logo {
+    width:60px;
+    float:left;
+    margin-left: 60px;
+    margin-right: 30px;
+  }
+
+  #volunteering {
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 60%;
+    margin-left: 300px;
+    border-right: 4px solid rgb(0, 153, 255);
+    text-shadow: 1px 2px rgb(0, 153, 255);
+  }
+
+  .volunteer-heading {
+    margin-bottom: -15px;
+  }
+
+  .ycd {
+    text-align: left;
+  }
+  .ycd-logo {
+    width: 60px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 30px;
+  }
+
+  li {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 150px;
+  }
+
+  .volunteer-text {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 150px;
+    padding-right: 80px;
+  }
+  
+  .skills {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .skills-heading {
+    margin-bottom: -15px;
+    margin-left: px;
+  }
